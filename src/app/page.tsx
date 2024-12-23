@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./(main)/_components/Navbar";
 import Leads from "./(main)/_components/Leads/Leads";
 

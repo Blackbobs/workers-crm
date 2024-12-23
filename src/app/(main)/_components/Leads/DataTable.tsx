@@ -144,7 +144,7 @@ export const columns: ColumnDef<Leads>[] = [
   },
   {
     accessorKey: "date",
-    header: ({ column }) => {
+    header: () => {
       return (
         <Button
           variant="ghost"

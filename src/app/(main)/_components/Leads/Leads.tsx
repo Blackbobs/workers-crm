@@ -1,8 +1,7 @@
 "use client";
 import { Ankr, Cardano, UserSquare } from "iconsax-react";
 import { Mail } from "lucide-react";
-import Image from "next/image";
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -14,7 +13,6 @@ import { DataTableDemo } from "./DataTable";
 
 const Leads = () => {
   const [showModal, setShowModal] = useState(false);
-  const modalRef = useRef<HTMLDivElement | null>(null)
 
   // const handleCloseModal = () => {
   //   if(modalRef as HTMLDivElement){
@@ -423,11 +421,11 @@ const Leads = () => {
               </h3>
               <ul className="list-disc list-inside text-gray-700 mb-4">
                 <li>
-                  Jane is a key decision maker and was browsing 'espresso
-                  machines' on First Coffee's website.
+                  Jane is a key decision maker and was browsing &apos;espresso
+                  machines&apos; on First Coffee&apos;s website.
                 </li>
                 <li>
-                  Multiple people at her company have reported 'slowness' during
+                  Multiple people at her company have reported &pos;slowness&apos; during
                   service requests.
                 </li>
                 <li>
@@ -463,9 +461,9 @@ const Leads = () => {
                 operations and enhancing customer experiences. Under her
                 guidance, Northwind Traders' in-store coffee shops have
                 flourished, becoming a hallmark of quality and innovation.
-                Jane's commitment to excellence makes her an ideal partner for
+                Jane&apos;s commitment to excellence makes her an ideal partner for
                 First Coffee. She is always seeking top-tier equipment to
-                elevate her coffee shops' offerings, ensuring consistent,
+                elevate her coffee shops&apos; offerings, ensuring consistent,
                 high-quality service.
               </p>
             </div>
