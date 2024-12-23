@@ -234,7 +234,7 @@ export function AppSidebar() {
       <SidebarFooter>
           <SidebarContent>
             <SidebarMenuButton>
-              <Link href={'/agent-skill'}>
+              <Link className="bg-blue-700 text-white w-full p-3 text-[18px] text-center font-bold" href={'/agent-skill'}>
               Agent Skill</Link>
             </SidebarMenuButton>
           </SidebarContent>

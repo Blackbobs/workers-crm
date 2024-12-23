@@ -3,7 +3,7 @@ import AgentSkill from '../../_components/AgentSkill'
 
 const page = () => {
   return (
-    <div className='bg__overlay'>
+    <div className='bg__overlay flex items-center w-full h-full justify-center'>
         <AgentSkill/>
     </div>
   )

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const AgentSkill = () => {
@@ -51,12 +52,12 @@ const AgentSkill = () => {
         </div>
       </div>
       <div className="flex justify-end space-x-2">
-        <button className="bg-blue-600 text-white px-4 py-2 rounded">
+        <Link href={'/'} className="bg-blue-600 text-white px-4 py-2 rounded">
           Allow access
-        </button>
-        <button className="bg-gray-200 text-gray-700 px-4 py-2 rounded">
+        </Link>
+        <Link href={'/'} className="bg-gray-200 text-gray-700 px-4 py-2 rounded">
           Close
-        </button>
+        </Link>
       </div>
     </div>
   );
