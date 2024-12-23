@@ -3,6 +3,7 @@
 import {
   Sidebar,
   SidebarContent,
+  SidebarFooter,
   SidebarGroup,
   SidebarGroupContent,
   SidebarGroupLabel,
@@ -38,7 +39,7 @@ const items = [
 export function AppSidebar() {
   const buttonRef = useRef<HTMLButtonElement | null>(null);
   return (
-    <Sidebar>
+    <Sidebar collapsible="icon">
       <SidebarContent>
         <div>
           {/* <button ref={buttonRef} className="hidden"> */}
@@ -230,6 +231,14 @@ export function AppSidebar() {
 
         </SidebarGroup>
       </SidebarContent>
+      <SidebarFooter>
+          <SidebarContent>
+            <SidebarMenuButton>
+              <Link href={'/agent-skill'}>
+              Agent Skill</Link>
+            </SidebarMenuButton>
+          </SidebarContent>
+      </SidebarFooter>
     </Sidebar>
   );
 }

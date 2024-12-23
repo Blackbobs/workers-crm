@@ -357,7 +357,7 @@ const Leads = () => {
       {
         showModal && (
           <div className="p-4 absolute top-5 z-50">
-          <div className="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto">
+          <div className="bg-white shadow-xl rounded-[8px] p-6 max-w-4xl mx-auto">
               <div className="flex items-center justify-between mb-4">
                   <div className="flex items-center">
                       <img src="https://placehold.co/50x50" alt="Profile picture of Jane Reyes" className="rounded-full w-12 h-12 mr-4"/>
