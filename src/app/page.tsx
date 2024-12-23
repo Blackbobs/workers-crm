@@ -4,9 +4,9 @@ import Leads from "./(main)/_components/Leads/Leads";
 
 export default function Home() {
   return(
-  <section className="bg-[#fffefe] w-full p-2 h-full">
+  <section className="bg-[#fffefe] w-full p-5 h-full">
     <Navbar/>
-    <div>
+    <div className="mx-[1%]">
       <Leads/>
     </div>
   </section>

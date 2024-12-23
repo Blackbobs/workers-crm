@@ -14,8 +14,8 @@ const Navbar = () => {
   return (
     <nav className="w-full">
       <div className="bg-white shadow w-full p-3 rounded-lg flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <h1>My open leads</h1>
+        <div className="flex items-center gap-1">
+          <h1 className="text-nowrap">My open leads</h1>
           <ArrowDown2 size={15} color="#121212" />
         </div>
         <div className="flex items-center gap-3">
