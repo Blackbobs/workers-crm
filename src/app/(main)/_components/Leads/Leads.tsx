@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { DataTableDemo } from "./DataTable";
+import Image from "next/image";
 
 const Leads = () => {
   const [showModal, setShowModal] = useState(false);
@@ -384,10 +385,13 @@ const Leads = () => {
           <div className="bg-white shadow-xl rounded-[8px] p-6 max-w-4xl mx-auto">
             <div className="flex items-center justify-between mb-4">
               <div className="flex items-center">
-                <img
+                <Image
                   src="https://placehold.co/50x50"
                   alt="Profile picture of Jane Reyes"
                   className="rounded-full w-12 h-12 mr-4"
+                  width={100}
+                  height={100}
+                  priority
                 />
                 <div>
                   <h2 className="text-xl font-semibold">Jane Reyes</h2>
@@ -459,7 +463,7 @@ const Leads = () => {
                 Jane Reyes, the Chief Operating Officer of Northwind Traders, is
                 a dynamic leader with a proven track record in optimizing
                 operations and enhancing customer experiences. Under her
-                guidance, Northwind Traders' in-store coffee shops have
+                guidance, Northwind Traders&apos; in-store coffee shops have
                 flourished, becoming a hallmark of quality and innovation.
                 Jane&apos;s commitment to excellence makes her an ideal partner for
                 First Coffee. She is always seeking top-tier equipment to
